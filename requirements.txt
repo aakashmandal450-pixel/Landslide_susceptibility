@@ -1,0 +1,26 @@
+numpy
+pandas
+scipy
+scikit-learn
+scikit-optimize
+xgboost
+shap
+joblib
+statsmodels
+matplotlib
+seaborn
+plotly
+openpyxl
+rasterio
+geopandas
+shapely
+pyproj
+mapclassify
+jenkspy
+oauthlib
+requests-oauthlib
+tqdm
+python-docx
+# optional: only for the exploratory CNN in scripts/cnn and notebooks/archive
+# tensorflow
+# GRASS GIS 8.4 (with r.slopeunits addon) provides the `grass.script` module used by some scripts

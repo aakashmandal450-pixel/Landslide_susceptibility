@@ -1,0 +1,32 @@
+3. Methodology
+3.1 Data Preparation
+
+A landslide inventory map was prepared by integrating field records and remote sensing interpretation. Landslide locations were assigned a value of 1, while non-landslide locations were assigned a value of 0. Multiple landslide conditioning factors, including topographic, hydrological, geological, and vegetation-related parameters, were derived using GIS and remote sensing techniques. All datasets were resampled to grid resolutions of 3×3 m, 15×15 m, and 25×25 m.
+
+3.2 Feature Extraction and Preprocessing
+
+All conditioning factors were extracted at landslide and non-landslide locations. Missing values were handled using mean imputation. For SVM, features were standardized using z-score normalization to ensure comparable scaling.
+
+3.3 Machine Learning Models
+
+Three machine learning models were employed:
+
+Random Forest (RF)
+
+Support Vector Machine (SVM) with radial basis function kernel
+
+Extreme Gradient Boosting (XGBoost)
+
+Default parameters were adopted with minor tuning based on preliminary testing.
+
+3.4 Model Training and Validation
+
+The dataset was divided into training (80%) and testing (20%) subsets using stratified sampling. Five-fold stratified cross-validation was used to evaluate model stability.
+
+3.5 Performance Evaluation
+
+Model performance was assessed using accuracy, sensitivity, specificity, precision, F1-score, Cohen’s kappa, and AUC. ROC curves were generated for visual evaluation.
+
+3.6 Feature Importance Analysis
+
+Feature importance was derived using impurity-based measures for RF and XGBoost, and permutation importance for SVM. The results were used to identify dominant landslide controlling factors.

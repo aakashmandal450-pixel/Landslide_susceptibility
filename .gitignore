@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+~$*
+*.lock
+*.aux.xml
+*.ovr
+.DS_Store
+Thumbs.db
