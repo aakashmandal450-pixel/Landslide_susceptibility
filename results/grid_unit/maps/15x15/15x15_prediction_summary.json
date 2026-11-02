@@ -1,0 +1,20 @@
+{
+    "grid": "15x15",
+    "feature_names": [
+        "aspect",
+        "curvature",
+        "dis_to_fault",
+        "dis_to_river",
+        "dis_to_road",
+        "dis_to_thrust",
+        "ndvi",
+        "slope",
+        "twi"
+    ],
+    "n_valid_pixels": 9372074,
+    "training_samples": 1990,
+    "applicability_threshold_binary_mask": 0.5,
+    "applicability_formula": "0.7 * domain_score + 0.3 * agreement_score",
+    "domain_threshold_95pct_train_mahalanobis": 3.1284452761428736,
+    "maps_saved_in": "/content/drive/MyDrive/RemoteSensingResearchRelated/ColabNotebooks/susceptibility_outputs/15x15/maps"
+}

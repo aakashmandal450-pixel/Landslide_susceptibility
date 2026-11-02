@@ -1,0 +1,37 @@
+{
+    "grid": "3x3",
+    "feature_names": [
+        "aspect",
+        "curvature",
+        "dis_to_fault",
+        "dis_to_river",
+        "dis_to_road",
+        "dis_to_thrust",
+        "ndvi",
+        "slope",
+        "twi"
+    ],
+    "raster_shape": [
+        12849,
+        19351
+    ],
+    "n_valid_pixels": 236009064,
+    "training_samples": 1636,
+    "applicability_threshold_binary_mask": 0.5,
+    "applicability_formula": "0.7 * domain_score + 0.3 * agreement_score",
+    "domain_threshold_95pct_train_mahalanobis": 3.148312016947222,
+    "tile_rows": 1024,
+    "pred_batch_size": 200000,
+    "n_jobs": 6,
+    "parallel_backend": "threading",
+    "map_mode": "tiled",
+    "svm_parallel_folds": 3,
+    "svm_total_folds": 3,
+    "pixel_area_m2": 9.0,
+    "output_geotiff_compression": "none (uncompressed float32)",
+    "ensemble_min": 0.02138139307498932,
+    "ensemble_max": 0.9886344075202942,
+    "ensemble_mean": 0.4316040686047549,
+    "maps_saved_in": "D:\\Claude\\Research\\Landslide_Susceptibility_Mapping\\notebooks\\susceptibility_outputs\\3x3\\maps",
+    "pngs_saved_in": "D:\\Claude\\Research\\Landslide_Susceptibility_Mapping\\notebooks\\susceptibility_outputs\\3x3\\pngs"
+}

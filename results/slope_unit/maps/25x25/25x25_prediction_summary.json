@@ -1,0 +1,43 @@
+{
+    "grid": "25x25",
+    "features": [
+        "aspect_average",
+        "aspect_stddev",
+        "curvature_average",
+        "curvature_stddev",
+        "dis_to_fault_average",
+        "dis_to_fault_stddev",
+        "dis_to_river_average",
+        "dis_to_river_stddev",
+        "dis_to_road_average",
+        "dis_to_road_stddev",
+        "dis_to_thrust_average",
+        "dis_to_thrust_stddev",
+        "ndvi_average",
+        "ndvi_stddev",
+        "slope_average",
+        "slope_stddev",
+        "twi_average",
+        "twi_stddev"
+    ],
+    "n_slope_units_total": 9952,
+    "n_slope_units_valid": 9449,
+    "training_units": 839,
+    "domain_threshold_95pct_train_mahalanobis": 3.6987557254027985,
+    "applicability_formula": "0.7 * domain_score + 0.3 * agreement_score",
+    "applicability_threshold_binary_mask": 0.5,
+    "ensemble_method": "equal-weight mean probability",
+    "geotiff_layers": [
+        "RF_susceptibility",
+        "SVM_susceptibility",
+        "XGB_susceptibility",
+        "Ensemble_susceptibility",
+        "Domain_score",
+        "Agreement_score",
+        "Applicability_score",
+        "Trusted_mask",
+        "Model_disagreement_std",
+        "Mahalanobis_distance"
+    ],
+    "outputs_in": "/content/drive/MyDrive/RemoteSensingResearchRelated/ColabNotebooks/slope_unit_maps/25x25"
+}
