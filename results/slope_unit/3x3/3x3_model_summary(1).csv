@@ -1,0 +1,5 @@
+grid,model,accuracy,precision,recall,f1,auc,model_path
+3x3,RF,0.7514792899408284,0.7241379310344828,0.6176470588235294,0.6666666666666666,0.8108619685497962,/content/drive/MyDrive/RemoteSensingResearchRelated/ColabNotebooks/slope_unit_model_outputs/3x3/models/RF_3x3_calibrated.pkl
+3x3,SVM,0.757396449704142,0.7288135593220338,0.6323529411764706,0.6771653543307087,0.794845661036692,/content/drive/MyDrive/RemoteSensingResearchRelated/ColabNotebooks/slope_unit_model_outputs/3x3/models/SVM_3x3_calibrated.pkl
+3x3,XGB,0.7633136094674556,0.7333333333333333,0.6470588235294118,0.6875,0.8248398369248688,/content/drive/MyDrive/RemoteSensingResearchRelated/ColabNotebooks/slope_unit_model_outputs/3x3/models/XGB_3x3_calibrated.pkl
+3x3,Ensemble,0.7633136094674556,0.75,0.6176470588235294,0.6774193548387096,0.8120267909143855,/content/drive/MyDrive/RemoteSensingResearchRelated/ColabNotebooks/slope_unit_model_outputs/3x3/models/Ensemble_3x3.pkl

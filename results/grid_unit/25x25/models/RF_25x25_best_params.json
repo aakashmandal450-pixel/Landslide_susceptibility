@@ -1,0 +1,7 @@
+{
+    "class_weight": "balanced",
+    "max_depth": 23,
+    "min_samples_leaf": 1,
+    "min_samples_split": 5,
+    "n_estimators": 151
+}

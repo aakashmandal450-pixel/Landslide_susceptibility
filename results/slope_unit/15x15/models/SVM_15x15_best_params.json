@@ -1,0 +1,6 @@
+{
+    "model__C": 4.0273242216251255,
+    "model__class_weight": "balanced",
+    "model__gamma": 0.020151181179055445,
+    "model__kernel": "rbf"
+}
